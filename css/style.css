@@ -1,0 +1,49 @@
+/*
+    RESET
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*
+GENERAL
+*/
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* .box {
+    padding: 20px;
+    text-align: center;
+    color: white;
+    background-color: blue;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    border: 2px dashed yellow;
+    margin-bottom: 10px;
+}
+
+.inner-box {
+    padding: 20px;
+    background-color: green;
+    border: 2px dashed purple;
+    text-align: center;
+    color: white;
+}
+
+.special-box {
+    display: flex;
+    justify-content: space-around;
+}
+
+.full-height-box {
+    height: 100%;
+} */
