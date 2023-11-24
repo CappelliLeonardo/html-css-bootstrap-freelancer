@@ -20,9 +20,41 @@ img{
 }
 
 
+:root {
+    --bs-success-rgb: 26,188,156;
+}
 
+.my-btn-success {
+    --bs-btn-bg: rgb (26,188,156);
 
+}
 
+.star-container::before,
+.star-container::after{
+    content: "";
+    width: 40%;
+    height: 4px;
+    display: inline-block;
+    background-color: white;
+    vertical-align: middle;
+    border-radius: 2px;
+}
+.star-container i {
+    vertical-align: middle;
+    margin: 5px;
+}
+
+.star-container.dark-bars::before,
+.star-container.dark-bars::after{
+    background-color: rgb(var(--bs-dark-rgb));
+}
+
+.my-rounded-icon{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+
+}
 /* .container{
     max-width: 1200px;
     margin: 0 auto;
